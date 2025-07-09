@@ -1,6 +1,6 @@
 #the guessing part
 import time
-F = open("E:\\Python\\Files\\Word.txt","r")
+F = open("Word.txt","r")
 W = F.readline()
 L = len(W)
 print("Bulls and Cows")
