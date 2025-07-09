@@ -1,0 +1,5 @@
+F = open("E:\\Python\\Files\\Word.txt","w")
+W = input("Enter your word: ").strip().lower()
+print("Word saved successfully, you may now play bulls and cows")
+F.write(W)
+F.close()
